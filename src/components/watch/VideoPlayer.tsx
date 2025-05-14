@@ -1,6 +1,6 @@
 
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Play, AlertCircle, Volume2, FullScreen, Pause } from "lucide-react";
+import { Play, AlertCircle, Volume2, Pause, Maximize } from "lucide-react";
 import { Episode } from "../../utils/movieData";
 import { useState, useEffect, useRef } from "react";
 import { toast } from "@/components/ui/use-toast";
@@ -251,7 +251,7 @@ export const VideoPlayer = ({
                         size="icon"
                         className="text-white hover:bg-white/20"
                       >
-                        <FullScreen className="h-5 w-5" />
+                        <Maximize className="h-5 w-5" />
                       </Button>
                     </div>
                   </div>
